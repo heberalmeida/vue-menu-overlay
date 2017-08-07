@@ -1,10 +1,11 @@
 # vue-menu-overlay
-menu overlay component vuejs
-
-# vue-menu-overlay
 A simple, menu overlay for VueJS (2.x) 
 
 ![Basic Screenshot](README/images/screenshot.jpg)
+
+## Live Demo
+
+[Demo Site](https://jsfiddle.net/sistemaweb/dth8xpwe/)
 
 ## Getting Started
 
@@ -12,18 +13,20 @@ A simple, menu overlay for VueJS (2.x)
 
 The plugin is meant to be used with existing Vue 2.x projects. It uses ES6 features so as long as your build process includes a transpiler, you're good to go.
 
+## Github
+[GitHub](https://github.com/heberalmeida/vue-menu-overlay)
 
 ### Installing
 
 Install with npm:
 ```
-npm install --save vue-menu-overlay
+npm install --save menu-overlay
 ```
 
 import into project:
 ```
 import Vue from 'vue'
-import VueMenuOverlay from 'vue-menu-overlay'
+import VueMenuOverlay from 'menu-overlay'
 
 Vue.use(VueMenuOverlay)
 ```
