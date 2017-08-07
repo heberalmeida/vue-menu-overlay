@@ -1,7 +1,7 @@
 # vue-menu-overlay
 A simple, menu overlay for VueJS (2.x) 
 
-![Basic Screenshot](README/images/screenshot.jpg)
+![Basic Screenshot](README/images/screenshot.png)
 
 ## Live Demo
 
