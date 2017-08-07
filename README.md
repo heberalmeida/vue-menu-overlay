@@ -4,7 +4,7 @@ menu overlay component vuejs
 # vue-menu-overlay
 A simple, menu overlay for VueJS (2.x) 
 
-![Basic Screenshot](README/images/screenshot.png)
+![Basic Screenshot](README/images/screenshot.jpg)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ npm install --save vue-menu-overlay
 import into project:
 ```
 import Vue from 'vue'
-import VueMenuOverlay from '../src/index'
+import VueMenuOverlay from 'vue-menu-overlay'
 
 Vue.use(VueMenuOverlay)
 ```
