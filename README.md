@@ -20,13 +20,13 @@ The plugin is meant to be used with existing Vue 2.x projects. It uses ES6 featu
 
 Install with npm:
 ```
-npm install --save menu-overlay
+npm install --save vue-menu-overlay
 ```
 
 import into project:
 ```
 import Vue from 'vue'
-import VueMenuOverlay from 'menu-overlay'
+import VueMenuOverlay from 'vue-menu-overlay'
 
 Vue.use(VueMenuOverlay)
 ```
