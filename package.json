@@ -1,7 +1,7 @@
 {
 	"name": "vue-menu-overlay",
 	"description": "A Vue.js project",
-	"version": "1.0.3a",
+	"version": "1.0.3",
 	"author": "Heber Almeida <eu@heber.com.br>",
 	"main": "dist/vue-menu-overlay.js",
 	"scripts": {
