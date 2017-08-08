@@ -77,7 +77,7 @@ Vue.use(VueMenuOverlay)
       </td>
     </tr>
     <tr>
-      <td>columns</td>
+      <td>links</td>
       <td>Array containing objects</td>
       <td>
 <pre lang="javascript">
