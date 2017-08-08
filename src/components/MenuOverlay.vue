@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#" @click.prevent="openMenu" class="slide-menu-open">{{ menuText }}</a>
+    <a href="#" @click.prevent="openMenu" class="slide-menu-open">{{ label }}</a>
     <div class="side-menu-overlay" style="width: 0px; opacity: 0;" @click.prevent="openMenu"></div>
     <div class="side-menu-wrapper">
         <a href="#" class="menu-close" @click.prevent="openMenu">&times;</a>
@@ -19,9 +19,8 @@
 export default {
   name: 'vue-menu-overlay',
   props: {
-      menus: {},
-      menuText: { default: 'Open Menu'},
-      width: { default: 290 }
+      menus: { type: Array },
+      label: { default: 'Open Menu'}
   },
   data () {
     return {
@@ -38,7 +37,7 @@ export default {
         	overlay.style.opacity = 1
             overlay.style.width = '100%'
         } else {
-            slide_bar.style.right = `-${this.width}px`
+            slide_bar.style.right = `-290px`
             overlay.style.opacity = 0
             overlay.style.width = 0
         }

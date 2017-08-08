@@ -1,7 +1,7 @@
 # vue-menu-overlay
 A simple, menu overlay for VueJS (2.x) 
 
-![Basic Screenshot](README/images/screenshot.png)
+![Basic Screenshot](https://raw.githubusercontent.com/heberalmeida/vue-menu-overlay/HEAD/README/images/screenshot.png)
 
 ## Live Demo
 
@@ -42,7 +42,7 @@ Vue.use(VueMenuOverlay)
 
 <script>
   import Vue from 'vue'
-  import VueMenuOverlay from '../src/index'
+  import VueMenuOverlay from 'vue-menu-overlay'
   Vue.use(VueMenuOverlay)
   export default {
     data(){
@@ -58,6 +58,42 @@ Vue.use(VueMenuOverlay)
   }
 </script>
 ```
+
+### Component Options
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+      <th>Type, Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>label</td>
+      <td>text label menu</td>
+      <td>String, <code>"Menu"</code><br>
+        If not set, the label "Open Menu".
+      </td>
+    </tr>
+    <tr>
+      <td>columns</td>
+      <td>Array containing objects</td>
+      <td>
+<pre lang="javascript">
+  [
+    {
+      title: String,
+      url: String,
+      target: String,
+    }
+    //...
+  ]
+</pre>
+      </td>
+    </tr>
+ </tbody>
+ </table>
 
 ## Authors
 
