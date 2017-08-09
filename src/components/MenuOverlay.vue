@@ -1,8 +1,8 @@
 <template>
   <div>
     <a href="#" @click.prevent="openMenu" class="slide-menu-open">
-        <i v-if="material" class="material-icons">{{ material }}</i> 
-        <i :class="menu.icon" v-else></i> 
+        <i v-if="material" class="material-icons">{{ icon }}</i> 
+        <i :class="icon" v-else></i> 
         {{ label }}
     </a>
     <div class="side-menu-overlay" style="width: 0px; opacity: 0;" @click.prevent="openMenu"></div>
@@ -27,8 +27,8 @@ export default {
   props: {
       menus: { type: Array },
       label: { default: 'Open Menu'},
-      icon: { type: String },
-      material: { type: String }
+      icon: { default: String },
+      material: { default: String }
   },
   data () {
     return {

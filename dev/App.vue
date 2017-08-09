@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vue-menu-overlay :menus="links" label="Menu"></vue-menu-overlay>
+    <vue-menu-overlay :menus="links" label="Menu" icon="fa fa-bars"></vue-menu-overlay>
   </div>
 </template>
 
