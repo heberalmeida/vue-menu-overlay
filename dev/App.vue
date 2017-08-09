@@ -6,7 +6,7 @@
 
 <script>
   import Vue from 'vue'
-  import VueMenuOverlay from '../src/index'
+  import VueMenuOverlay from '../dist/vue-menu-overlay'
   Vue.use(VueMenuOverlay)
   export default {
     data(){

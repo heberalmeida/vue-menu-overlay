@@ -7,7 +7,9 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
-        filename: 'vue-menu-overlay.js'
+        filename: 'vue-menu-overlay.js',
+        library: 'VueMenuOverlay',
+        libraryTarget: 'umd'
     },
     module: {
         rules: [
