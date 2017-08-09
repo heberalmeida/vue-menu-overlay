@@ -1,12 +1,18 @@
 <template>
   <div>
-    <a href="#" @click.prevent="openMenu" class="slide-menu-open">{{ label }}</a>
+    <a href="#" @click.prevent="openMenu" class="slide-menu-open">
+        <i v-if="material" class="material-icons">{{ material }}</i> 
+        <i :class="menu.icon" v-else></i> 
+        {{ label }}
+    </a>
     <div class="side-menu-overlay" style="width: 0px; opacity: 0;" @click.prevent="openMenu"></div>
     <div class="side-menu-wrapper">
         <a href="#" class="menu-close" @click.prevent="openMenu">&times;</a>
         <ul>
             <li v-for="(menu, index) in menus">
                 <a :href="menu.url" :target="menu.target" rel="nofollow">
+                    <i v-if="menu.material" class="material-icons">{{ menu.material }}</i> 
+                    <i :class="menu.icon" v-else></i> 
                     {{ menu.title }}
                 </a>
             </li>
@@ -20,7 +26,9 @@ export default {
   name: 'vue-menu-overlay',
   props: {
       menus: { type: Array },
-      label: { default: 'Open Menu'}
+      label: { default: 'Open Menu'},
+      icon: { type: String },
+      material: { type: String }
   },
   data () {
     return {

@@ -3,6 +3,9 @@ A simple, menu overlay for VueJS (2.x)
 
 ![Basic Screenshot](https://raw.githubusercontent.com/heberalmeida/vue-menu-overlay/HEAD/README/images/screenshot.png)
 
+## New support icon
+[Demo Icon](https://jsfiddle.net/sistemaweb/gfj0f39n/)
+
 ## Live Demo
 
 [Demo Site](https://jsfiddle.net/sistemaweb/dth8xpwe/)
@@ -85,7 +88,8 @@ Vue.use(VueMenuOverlay)
     {
       title: String,
       url: String,
-      target: String,
+      target: String (optional), 
+      icon: String (optional) *import libs icon <-set class icon
     }
     //...
   ]
