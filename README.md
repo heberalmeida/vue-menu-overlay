@@ -80,7 +80,7 @@ Vue.use(VueMenuOverlay)
       </td>
     </tr>
     <tr>
-      <td>links</td>
+      <td>menus</td>
       <td>Array containing objects</td>
       <td>
 <pre lang="javascript">
@@ -89,7 +89,8 @@ Vue.use(VueMenuOverlay)
       title: String,
       url: String,
       target: String (optional), 
-      icon: String (optional) *import libs icon <-set class icon
+      icon: String (optional) *import libs icon <-set class icon,
+      material: 1 (optional) if icon material design
     }
     //...
   ]
