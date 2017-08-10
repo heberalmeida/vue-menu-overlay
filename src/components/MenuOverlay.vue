@@ -1,7 +1,7 @@
 <template>
   <div>
     <a href="#" @click.prevent="openMenu" class="slide-menu-open">
-        <i v-if="material" class="material-icons">{{ icon }}</i> 
+        <i v-if="material" class="material-icons">{{ material }}</i> 
         <i :class="icon" v-else></i> 
         {{ label }}
     </a>

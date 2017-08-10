@@ -5,7 +5,7 @@ A simple, menu overlay for VueJS (2.x)
 
 ## New support icon
 [Demo Icon](https://jsfiddle.net/sistemaweb/gfj0f39n/)
-
+[Material Design](https://jsfiddle.net/sistemaweb/s3sakt1t/)
 ## Live Demo
 
 [Demo Site](https://jsfiddle.net/sistemaweb/dth8xpwe/)
@@ -80,6 +80,27 @@ Vue.use(VueMenuOverlay)
       </td>
     </tr>
     <tr>
+      <td>icon</td>
+      <td>icon label menu</td>
+      <td>String, <code>"fa fa-bars"</code><br>
+        icon fontawesome example
+      </td>
+    </tr>
+    <tr>
+      <td>material</td>
+      <td>icon material design</td>
+      <td>String, <code>"icon material"</code><br>
+        icon material design
+      </td>
+    </tr>
+    <tr>
+      <td>label</td>
+      <td>text label menu</td>
+      <td>String, <code>"Menu"</code><br>
+        If not set, the label "Open Menu".
+      </td>
+    </tr>
+    <tr>
       <td>menus</td>
       <td>Array containing objects</td>
       <td>
@@ -90,7 +111,7 @@ Vue.use(VueMenuOverlay)
       url: String,
       target: String (optional), 
       icon: String (optional) *import libs icon <-set class icon,
-      material: 1 (optional) if icon material design
+      material: String (optional) if icon material design
     }
     //...
   ]
